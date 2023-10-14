@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: app-nginx:1.0
+    ports:
+      - "80:80"
+    restart: always
+
